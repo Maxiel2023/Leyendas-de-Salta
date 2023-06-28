@@ -1,0 +1,376 @@
+#infoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 110px;
+  position: relative;
+}
+
+#Mapa {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: 2px solid #FFFFFF;
+  padding: 3px; 
+  color: #FFFFFF;
+  border-radius: 30px;
+}
+
+#Coquena{
+  width: 500px;
+  height: 300px;
+}
+
+#infocoquena, #infobrealito, #infoviuda, #infoduende, #infozonda
+, #infofamiliar, #infoucumar, #infopajaro, #infoduendequebrada, #infodama, #infomula, 
+ #infopujllay, #infoukaco, #infochiqui, #infollastay, #infoekeko, #infoajataj, 
+ #infomikilo, #infosupay, #infogualicho, #infosachayoj, #infoijwala{
+  font-size: 20px;
+  text-align: left;
+  line-height: 2;
+}
+
+#duende, #zonda, #viuda{
+  width: 200px;
+  height: 300px;
+}
+
+
+#elfamiliar, #mula, #salamanca{
+  width: 400px;
+  height: 300px;
+}
+
+#ucumar, #pajaro{
+  width: 600px;
+  height: 500px;
+}
+
+
+#duendequebrada, #dama, #supay, #sachayoj, #ijwala{
+  width: 300px;
+  height: 300px;
+}
+
+
+#pujllay, #chiqui, #mikilo{
+  width: 450px;
+  height: 450px;
+}
+
+#Ukaco, #ekeko, #ajataj{
+  width: 400px;
+  height: 400px;
+}
+
+#llastay, #gualicho{
+  width: 200px;
+  height: 200px;
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Bookman Old Style;
+  font-size: 50px;
+  font-weight: 80;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+
+
+body {
+  color: #fff;
+  background-image: linear-gradient(135deg, #080000, #470E0E, #A02121);
+  background-size: 400% 400%;
+  animation: fanimado 10s infinite;
+  position: relative;
+}
+
+@keyframes fanimado {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+#contenido, #contenido_1, #contenido_2, #contenido_4, #contenido_5
+, #contenido_6, #contenido_7, #contenido_8, #contenido_9, #contenido_10
+, #contenido_11, #contenido_12, #contenido_13, #contenido_14, #contenido_15, 
+#contenido_16, #contenido_17, #contenido_18, #contenido_19, #contenido_20
+, #contenido_21, #contenido_22, #contenido_23{
+  background-color: black;
+  display: none;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border: 2px solid #FFFFFF;
+  padding: 3px; 
+  color: #FFFFFF;
+  border-radius: 30px;
+}
+
+
+
+#button {
+  background-color: black;
+  position: absolute;
+  top: 61%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  border-radius: 50%;
+}
+
+#button2 {
+  background-color: black;
+  position: absolute;
+  top: 71%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button3 {
+  background-color: black;
+  position: absolute;
+  top: 62%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button4 {
+  background-color: black;
+  position: absolute;
+  top: 71%;
+  left: 47.5%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button5 {
+  background-color: black;
+  position: absolute;
+  top: 65%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button6 {
+  background-color: black;
+  position: absolute;
+  top: 58%;
+  left: 46.5%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+
+#button7 {
+  background-color: black;
+  position: absolute;
+  top: 56%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button8 {
+  background-color: black;
+  position: absolute;
+  top: 59%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button9 {
+  background-color: black;
+  position: absolute;
+  top: 63.5%;
+  left: 48.5%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button10 {
+  background-color: black;
+  position: absolute;
+  top: 57%;
+  left: 48.5%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button11 {
+  background-color: black;
+  position: absolute;
+  top: 67.8%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button12 {
+  background-color: black;
+  position: absolute;
+  top: 76%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button13 {
+  background-color: black;
+  position: absolute;
+  top: 86%;
+  left: 46.5%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button14 {
+  background-color: black;
+  position: absolute;
+  top: 85.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button15{
+  background-color: black;
+  position: absolute;
+  top: 78%;
+  left: 48.5%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button16{
+  background-color: black;
+  position: absolute;
+  top: 81%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button17{
+  background-color: black;
+  position: absolute;
+  top: 74.5%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button18{
+  background-color: black;
+  position: absolute;
+  top: 56%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button19{
+  background-color: black;
+  position: absolute;
+  top: 44%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button20{
+  background-color: black;
+  position: absolute;
+  top: 37%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button21{
+  background-color: black;
+  position: absolute;
+  top: 24%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#button22{
+  background-color: black;
+  position: absolute;
+  top: 20%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+
+#button23{
+  background-color: black;
+  position: absolute;
+  top: 14%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#botonSalida, #botonSalida2, #botonSalida3, #botonSalida4, #botonSalida5
+, #botonSalida6, #botonSalida7, #botonSalida8, #botonSalida9, #botonSalida10, 
+#botonSalida11, #botonSalida12, #botonSalida13, #botonSalida14, #botonSalida15, 
+#botonSalida16, #botonSalida17, #botonSalida18, #botonSalida19, #botonSalida20,
+#botonSalida21, #botonSalida22, #botonSalida23{
+   position: absolute;
+  top: 6%;
+  left: 6%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  border-radius: 50%;
+}
+
